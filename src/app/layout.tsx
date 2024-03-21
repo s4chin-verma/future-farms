@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Header } from '@/components'
+import { Header, Footer } from '@/components'
 import '@/styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,11 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/next.svg" sizes="any" />
+      </head>
       <body suppressHydrationWarning={true} className={inter.className}>
         <header>
           <Header />
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   )
