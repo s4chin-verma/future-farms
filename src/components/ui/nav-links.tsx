@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import clsx from 'clsx'
-import { usePathname } from 'next/navigation'
+import Link from 'next/link';
+import clsx from 'clsx';
+import { usePathname } from 'next/navigation';
 
 const links = [
   { name: 'Home', href: '/' },
@@ -11,10 +11,10 @@ const links = [
   { name: 'Pricing', href: '/pricing' },
   { name: 'gallery', href: '/gallery' },
   { name: 'Contact', href: '/contact' },
-]
+];
 
 export default function NavLinks() {
-  const pathname = usePathname()
+  const pathname = usePathname();
   return (
     <>
       {links.map(link => {
@@ -34,8 +34,8 @@ export default function NavLinks() {
               <p>{link.name}</p>
             </Link>
           </li>
-        )
+        );
       })}
     </>
-  )
+  );
 }

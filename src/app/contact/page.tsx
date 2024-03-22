@@ -182,9 +182,9 @@ export default function Page() {
             <iframe
               width="100%"
               height="400"
-              style="border: 0"
+              // style="border: 0"
               loading="lazy"
-              allowfullscreen
+              // allowfullscreen
               src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Your+Location"
             ></iframe>
           </div>

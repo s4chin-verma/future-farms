@@ -12,5 +12,5 @@ export default function Home() {
         dolorum, nam maiores.
       </h1>
     </main>
-  )
+  );
 }

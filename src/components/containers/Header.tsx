@@ -1,6 +1,6 @@
-import React from 'react'
-import NavLinks from '../ui/nav-links'
-import Link from 'next/link'
+import React from 'react';
+import NavLinks from '../ui/nav-links';
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

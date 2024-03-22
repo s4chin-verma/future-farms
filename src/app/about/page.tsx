@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import { Members, TimeLine } from '@/components'
+import Image from 'next/image';
+import { Members, TimeLine } from '@/components';
 
 export default function Page() {
   return (
@@ -46,5 +46,5 @@ export default function Page() {
         <Members />
       </main>
     </>
-  )
+  );
 }
