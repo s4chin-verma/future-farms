@@ -10,7 +10,7 @@ export default function Page() {
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between gap-40 items-center">
             <form action="#" className="space-y-8 w-full">
               <div>
                 <label
@@ -58,7 +58,7 @@ export default function Page() {
               </div>
               <button
                 type="submit"
-                className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                className="py-3 px-5 text-sm font-medium text-center text-gray-900 rounded-lg bg-gray-200 sm:w-fit hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Send message
               </button>
@@ -169,24 +169,6 @@ export default function Page() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
-            Contact Us
-          </h2>
-          {/* <!-- Other contact form elements --> */}
-          <div className="mt-8 lg:mt-16">
-            <iframe
-              width="100%"
-              height="400"
-              // style="border: 0"
-              loading="lazy"
-              // allowfullscreen
-              src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Your+Location"
-            ></iframe>
           </div>
         </div>
       </section>

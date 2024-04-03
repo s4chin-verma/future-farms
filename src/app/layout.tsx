@@ -20,10 +20,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/next.svg" sizes="any" />
       </head>
-      <body suppressHydrationWarning={true} className={inter.className}>
-        <header>
-          <Header />
-        </header>
+      <body
+        suppressHydrationWarning={true}
+        className={`px-6 pt-10 bg-gray-50 dark:bg-gray-900 ${inter.className}`}
+      >
+        <Header />
         {children}
         <Footer />
       </body>

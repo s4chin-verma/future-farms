@@ -1,5 +1,3 @@
-import { link } from 'fs';
-
 export const QuickLinks = [
   {
     title: 'Home',

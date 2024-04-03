@@ -6,8 +6,8 @@ import { QuickLinks, Project, socialServices } from '@/lib/content/footer';
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900">
-      <div className="container px-6 lg:px-32 py-12 mx-auto">
+    <footer className="bg-gray-50 dark:bg-gray-900">
+      <div className="container lg:px-32 py-5 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
@@ -22,7 +22,7 @@ export default function Footer() {
                 placeholder="Email Address"
               />
 
-              <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+              <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-green-600 rounded-lg hover:bg-green-500 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                 Subscribe
               </button>
             </div>

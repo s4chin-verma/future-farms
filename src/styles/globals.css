@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 } */
+
+/* Define custom utility classes */
+@layer utilities {
+  .heading-primary {
+    @apply text-xl sm:text-3xl font-bold my-6 sm:my-8 text-center; /* Modify styles as needed */
+  }
+
+  .heading-secondary {
+    @apply text-sm font-semibold text-gray-600 text-center; /* Modify styles as needed */
+  }
+
+  .content {
+    @apply text-justify text-sm sm:text-xl;
+  }
+}

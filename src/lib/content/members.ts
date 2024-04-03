@@ -1,31 +1,31 @@
 export const members = [
   {
-    name: 'Sachin Verma',
+    name: 'Nishant Singh',
     title: 'Founder & CEO',
+    imageSrc: '/nishant.jpeg',
+    bio: 'Hardware Developer Expert Design and Develop the hardware of the project',
+  },
+  {
+    name: 'Sachin Verma',
+    title: '',
     imageSrc: '/sachin.jpeg',
     bio: 'Contributed as a Web Developer in this Project',
   },
   {
-    name: 'Nishatnt Singh',
-    title: '',
-    imageSrc: '/do.jpg',
-    bio: 'Hardware Developer Expert Design and Develop the hardware of the project',
-  },
-  {
     name: 'Anand Sharma',
-    title: 'Founder & CEO',
+    title: '',
     imageSrc: '/do.jpg',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
   },
   {
     name: 'Arun Bali',
-    title: 'Founder & CEO',
+    title: '',
     imageSrc: '/do.jpg',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
   },
   {
     name: 'Ankit Bhatnagar',
-    title: 'Founder & CEO',
+    title: '',
     imageSrc: '/do.jpg',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
   },
