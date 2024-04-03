@@ -6,8 +6,8 @@ import { QuickLinks, Project, socialServices } from '@/lib/content/footer';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-gray-900">
-      <div className="container lg:px-32 py-5 mx-auto">
+    <footer className="bg-gray-50 dark:bg-gray-900 max-w-screen-xl mx-auto">
+      <div className="container py-5">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">

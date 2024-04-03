@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { TextInput, Checkbox } from '../ui/EnquiryFormUi';
+import { TextInput, Checkbox } from '../ui/Inputs';
 
 export default function EnquiryForm() {
   return (
