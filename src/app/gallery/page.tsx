@@ -9,31 +9,27 @@ export default function Page() {
     '/gal4.jpeg',
     '/gal5.jpeg',
     '/gal6.jpeg',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp',
-    'https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp',
   ];
 
   return (
-    <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-      <div className="-m-1 flex flex-col md:flex-row md:flex-wrap md:-m-2">
+    <section className="max-w-screen-xl mx-auto py-12">
+      <h1 className="heading-primary">Image Gallery</h1>
+      <div className="grid grid-col-1 sm:grid-cols-3 gap-8 justify-center">
         {imageLinks.map((link, index) => (
-          <div key={index} className="flex md:w-1/3 flex-wrap">
-            <div className="w-full p-1 md:p-2">
-              <Image
-                alt={`gallery-${index}`}
-                src={link}
-                width={500}
-                height={500}
-                className="block rounded-lg object-cover object-center"
-              />
-            </div>
+          <div
+            key={index}
+            className="h-64 w-[21.5rem] sm:h-80 sm:w-[25.5rem] overflow-hidden rounded-lg relative group"
+          >
+            <Image
+              alt={`gallery-${index}`}
+              src={link}
+              fill
+              className="object-cover object-center group-hover:opacity-60"
+              sizes="(min-width: 640px) 408px, 344px"
+            />
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

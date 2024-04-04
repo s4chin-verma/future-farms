@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { Header, Footer } from '@/components';
 import '@/styles/globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
+import { poppins, montserrat, inter } from '@/lib/fonts';
 
 export const metadata: Metadata = {
   title: 'Future Farms',

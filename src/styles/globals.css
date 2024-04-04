@@ -39,7 +39,7 @@ body {
   }
 
   .heading-secondary {
-    @apply text-sm font-semibold text-gray-600 text-center; /* Modify styles as needed */
+    @apply text-sm sm:text-base md:text-xl font-medium text-gray-600 text-center; /* Modify styles as needed */
   }
 
   .content {

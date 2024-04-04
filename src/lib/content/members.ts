@@ -1,32 +1,33 @@
 export const members = [
   {
     name: 'Nishant Singh',
-    title: 'Founder & CEO',
-    imageSrc: '/nishant.jpeg',
-    bio: 'Hardware Developer Expert Design and Develop the hardware of the project',
+    title: 'Founder & CEO, B.Tech (Electrical Engineering)',
+    imageSrc: '/team/nishant.jpeg',
+    bio: 'Hardware Development Expert. Designed and developed the hardware of the project.',
   },
-  {
-    name: 'Sachin Verma',
-    title: '',
-    imageSrc: '/sachin.jpeg',
-    bio: 'Contributed as a Web Developer in this Project',
-  },
+
   {
     name: 'Anand Sharma',
-    title: '',
-    imageSrc: '/do.jpg',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
+    title: 'IoT Software Developer, B.Tech (Electrical Engineering)',
+    imageSrc: '/team/anand.jpeg',
+    bio: 'Contributed as an IoT software developer in the project for measuring various parameters',
   },
   {
     name: 'Arun Bali',
-    title: '',
-    imageSrc: '/do.jpg',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
+    title: 'Planner and Agricultural Expert, B.Tech (Electrical Engineering)',
+    imageSrc: '/team/arun_bali.jpeg',
+    bio: 'Contributed as a planner and agricultural expert.',
   },
   {
     name: 'Ankit Bhatnagar',
-    title: '',
-    imageSrc: '/do.jpg',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quibusdam.',
+    title: 'Designer, B.Tech (Electrical Engineering)',
+    imageSrc: '/team/ankit.jpeg',
+    bio: 'Contributed as a designer of the project.',
+  },
+  {
+    name: 'Sachin Verma',
+    title: 'Web Developer, B.Tech (Electrical Engineering)',
+    imageSrc: '/team/sachin.jpeg',
+    bio: 'Contributed as a web developer in this project.',
   },
 ];

@@ -4,7 +4,7 @@ import { Members, TimeLine } from '@/components';
 export default function Page() {
   return (
     <>
-      <main className="max-w-screen-xl mx-auto">
+      <main className="max-w-screen-xl mx-auto pt-4 sm:pt-8">
         <section>
           <h1 className="heading-primary">Our Story</h1>
           <p className="content">
