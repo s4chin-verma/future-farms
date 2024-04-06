@@ -20,7 +20,7 @@ export default function RootLayout({
       </head>
       <body
         suppressHydrationWarning={true}
-        className={`px-6 pt-10 bg-gray-50 dark:bg-gray-900 ${inter.className}`}
+        className={`px-6 pt-10 bg-green-50 dark:bg-gray-900 ${inter.className}`}
       >
         <Header />
         {children}

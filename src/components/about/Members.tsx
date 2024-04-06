@@ -14,7 +14,7 @@ export default function Members() {
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-10 my-10 sm:my-20">
         {members.map((member, index) => (
           <div
-            className="h-48 sm:h-56 flex flex-row items-start bg-white border border-gray-200 rounded-lg shadow md:w-[36rem] hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="h-48 sm:h-56 flex flex-row items-start bg-gray-50 border border-gray-200 rounded-lg shadow md:w-[36rem] hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             key={index}
           >
             <div className="h-48 sm:h-56 w-56 sm:w-48 rounded-s-lg relative overflow-hidden">

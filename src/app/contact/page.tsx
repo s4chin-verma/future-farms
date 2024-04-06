@@ -3,7 +3,7 @@ import { TextInput } from '@/components/ui/Inputs';
 export default function Page() {
   return (
     <>
-      <section className="bg-gray-50 dark:bg-gray-900 mx-auto max-w-screen-xl">
+      <section className="mx-auto max-w-screen-xl">
         <div className="py-8 lg:py-16 px-4 ">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
@@ -77,10 +77,10 @@ export default function Page() {
                           Technical support
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          support@futurefarms.com
+                          shivamvarma346@gmail.com
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          +1 234-567-89
+                          +91 6387975718
                         </p>
                       </div>
                     </div>
@@ -110,10 +110,10 @@ export default function Page() {
                           Sales questions
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          sales@example.com
+                          nishantsingh7258@gmail.com
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          +1 234-567-89
+                          +91 7258849498
                         </p>
                       </div>
                     </div>
@@ -144,10 +144,10 @@ export default function Page() {
                           Bug report
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          bugs@futurefarms.com
+                          ankitbhatnagar320807@gmail.com
                         </p>
                         <p className="text-neutral-500 dark:text-neutral-200">
-                          +1 234-567-89
+                          +91 9873323462
                         </p>
                       </div>
                     </div>

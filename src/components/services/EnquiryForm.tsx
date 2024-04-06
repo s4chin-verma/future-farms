@@ -3,7 +3,7 @@ import { TextInput, Checkbox } from '../ui/Inputs';
 
 export default function EnquiryForm() {
   return (
-    <div className="bg-gray-50 dark:bg-gray-900 w-full md:w-1/2">
+    <div className="w-full md:w-1/2">
       <div className="flex flex-col items-center justify-center sm:selection:px-6 py-8 mx-auto lg:py-0">
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

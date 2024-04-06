@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const ImageTemplate = ({ src }: { src: string }) => {
   return (
-    <div className=" w-36 h-68 md:w-72 overflow-hidden rounded-sm relative group">
+    <div className="w-36 h-68 md:w-72 overflow-hidden rounded-sm relative group">
       <Image
         alt={`service:${src}`}
         src={src}

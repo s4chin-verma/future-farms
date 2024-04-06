@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const windowWidth = useWindowWidth();
 
   return (
-    <header className="fixed inset-x-0 top-0 right-0 bg-gray-50 border-gray-200 dark:bg-gray-900 z-40">
+    <header className="fixed inset-x-0 top-0 right-0 bg-green-50 border-gray-200 dark:bg-gray-900 z-40 shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-6 sm:mx-auto py-4">
         <Link
           href="/"
